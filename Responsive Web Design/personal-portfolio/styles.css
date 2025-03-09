@@ -4,3 +4,50 @@
     box-sizing: border-box;
     font-family: "Roboto Condensed", sans-serif;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#projects {
+    padding: 50px;
+    background: #ddd;
+    text-align: center;
+}
+
+.project-tile {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    #navbar {
+        padding: 5px 0;
+    }
+}
